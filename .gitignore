@@ -1,2 +1,7 @@
 *.gem
+libzmq.so
+
 libzmq/*.tar.gz
+libzmq/mkmf.log
+
+libzmq/zeromq-*/*
