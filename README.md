@@ -25,5 +25,7 @@ You'll need to have the ffi-rzmq gem installed (and the ffi gem if you're on Rub
 Or the bundler lines:
 
     gem 'ffi'
-    gem 'libzmq', :require => 'libzmq/ffi-rzmq'
+    gem 'libzmq'
     gem 'ffi-rzmq'
+    
+Note the ordering.
