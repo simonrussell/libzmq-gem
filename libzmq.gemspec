@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 
   s.name = 'libzmq'
-  s.version = '0.0.1'
+  s.version = '0.2.0'
   s.summary = 'Gem wrapper to install libzmq'
   s.description = <<-EOS
                     Gem to install libzmq; makes things easy.

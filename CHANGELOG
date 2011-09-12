@@ -1,0 +1,9 @@
+0.2.0
+=====
+
+- upgrade to ZeroMQ 2.1.9
+
+0.0.1
+=====
+
+- first release, with ZeroMQ 2.1.7
