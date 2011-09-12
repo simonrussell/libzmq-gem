@@ -1,3 +1,4 @@
-require_relative 'lib/libzmq/ffi-rzmq'
+gem 'libzmq'
+require 'libzmq/ffi-rzmq'
 
-puts "Using local ZMQ: #{ZMQ::Util.version.join('.')}"
+puts "Using gem ZMQ: #{ZMQ::Util.version.join('.')}"
