@@ -1,5 +1,5 @@
 all:
-	cd zeromq-2.1.7 && ./configure && $(MAKE) $@
+	cd zeromq-2.1.9 && ./configure && $(MAKE) $@
 
 install:
-	cp zeromq-2.1.7/src/.libs/libzmq.so ..
+	cp zeromq-2.1.9/src/.libs/libzmq.so ..
